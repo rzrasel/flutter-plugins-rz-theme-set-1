@@ -1,5 +1,8 @@
 # rz_theme_set
 
+![Platform](https://img.shields.io/badge/platforms-Flutter-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A lightweight Flutter plugin for centralized theme configuration and access.  
 `rz_theme_set` helps you manage colors, text styles, and size constants in a clean, reusable, and consistent way across your Flutter application.
 
