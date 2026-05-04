@@ -1,15 +1,47 @@
-# rz_theme_set_1
+# rz_theme_set
 
-A simple Flutter plugin for managing and applying reusable app themes with centralized configuration
+A lightweight Flutter plugin for centralized theme configuration and access.  
+`rz_theme_set` helps you manage colors, text styles, and size constants in a clean, reusable, and consistent way across your Flutter application.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Centralized theme management
+- Reusable color palette
+- Structured access to theme elements (color, text, size)
+- Simple, non-async, pure Dart implementation
+- Works on all Flutter platforms (Android, iOS, Web, Desktop)
 
+---
+
+## Installation
+
+Add the plugin to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  rz_theme_set:
+    git:
+      url: https://github.com/rzrasel/flutter-plugins-rz-theme-set-1.git
+      ref: main
+```
+
+---
+
+## 🧰 Git Commands
+
+```bash
+git init
+git remote add origin https://github.com/rzrasel/python-react-rz-content-manager-v-1.0.0.git
+git remote -v
+git fetch && git checkout master
+git add .
+git commit -m "Add Readme & Git Commit File"
+git pull
+git push --all
+git status
+git status
+```
+
+---
