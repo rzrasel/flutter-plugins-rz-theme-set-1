@@ -1,5 +1,8 @@
 # rz_theme_set
 
+![Platform](https://img.shields.io/badge/platforms-Flutter-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A Flutter plugin for centralized theme configuration, providing structured and reusable access to colors, text styles, and size constants.  
 This package helps maintain a consistent design system across Flutter applications.
 
@@ -178,3 +181,11 @@ Please update documentation when making changes.
 
 MIT License  
 See the LICENSE file for details.
+
+---
+
+If you want, I can also generate:
+- :contentReference[oaicite:1]{index=1}
+- :contentReference[oaicite:2]{index=2}
+- :contentReference[oaicite:3]{index=3}
+::contentReference[oaicite:0]{index=0}
