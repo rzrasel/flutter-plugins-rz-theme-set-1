@@ -1,10 +1,7 @@
 # rz_theme_set
 
-![Platform](https://img.shields.io/badge/platforms-Flutter-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-A lightweight Flutter plugin for centralized theme configuration and access.  
-`rz_theme_set` helps you manage colors, text styles, and size constants in a clean, reusable, and consistent way across your Flutter application.
+A Flutter plugin for centralized theme configuration, providing structured and reusable access to colors, text styles, and size constants.  
+This package helps maintain a consistent design system across Flutter applications.
 
 ---
 
@@ -12,15 +9,15 @@ A lightweight Flutter plugin for centralized theme configuration and access.
 
 - Centralized theme management
 - Reusable color palette
-- Structured access to theme elements (color, text, size)
-- Simple, non-async, pure Dart implementation
-- Works on all Flutter platforms (Android, iOS, Web, Desktop)
+- Structured access to color, text, and size
+- Pure Dart implementation (no async, no native code)
+- Works on Android, iOS, Web, and Desktop
 
 ---
 
 ## Installation
 
-Add the plugin to your `pubspec.yaml`:
+Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
@@ -48,3 +45,136 @@ git status
 ```
 
 ---
+
+Then run:
+
+```bash
+flutter pub get
+```
+
+---
+
+## Import
+
+```dart
+import 'package:rz_theme_set/rz_theme_set.dart';
+```
+
+---
+
+## Usage
+
+### Colors
+
+```dart
+Container(
+  color: RzTheme.color.theme.primary,
+);
+```
+
+### Text Style
+
+```dart
+Text(
+  'Hello Theme',
+  style: RzTheme.text.title,
+);
+```
+
+### Size / Spacing
+
+```dart
+Padding(
+  padding: EdgeInsets.all(RzTheme.size.paddingLarge),
+  child: Text('Spacing Example'),
+);
+```
+
+---
+
+## API Overview
+
+### RzTheme
+
+Central access point for all theme groups:
+
+- `RzTheme.color` – color definitions
+- `RzTheme.text` – text styles
+- `RzTheme.size` – size constants
+
+---
+
+### RzColor
+
+Access themed colors:
+
+```dart
+RzTheme.color.theme.primary
+RzTheme.color.theme.secondary
+RzTheme.color.theme.purple
+RzTheme.color.theme.gray
+```
+
+---
+
+### RzThemeColor
+
+Defines actual color values via palette constants:
+
+- `primary` – primary app color
+- `secondary` – secondary accent color
+- `purple` – complementary color
+- `gray` – neutral color
+
+---
+
+## Example
+
+An example app is available in the `example/` directory.
+
+Run it using:
+
+```bash
+cd example
+flutter run
+```
+
+For web (Chrome):
+
+```bash
+flutter run -d chrome
+```
+
+---
+
+## Customization
+
+You can extend this plugin to support:
+
+- Light and dark themes
+- Additional color groups
+- More text styles
+- Layout and spacing tokens
+
+The plugin is intentionally minimal for easy extension.
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+Steps:
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a pull request
+
+Please update documentation when making changes.
+
+---
+
+## License
+
+MIT License  
+See the LICENSE file for details.
