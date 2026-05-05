@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rz_theme_set_1/src/theme/color/rz_color.dart';
-import 'package:rz_theme_set_1/src/theme/size/rz_size.dart';
-import 'package:rz_theme_set_1/src/theme/text/rz_text.dart';
+import 'package:rz_theme_set_1/src/themes/color/rz_color.dart';
+import 'package:rz_theme_set_1/src/themes/size/rz_size.dart';
+import 'package:rz_theme_set_1/src/themes/text/rz_text.dart';
 
 class RzTheme {
   // prevents instantiation

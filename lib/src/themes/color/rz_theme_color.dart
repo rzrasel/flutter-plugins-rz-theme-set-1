@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rz_theme_set_1/src/theme/color/palette/rz_color_palette.dart';
+import 'package:rz_theme_set_1/src/themes/color/palette/rz_color_palette.dart';
 
 class RzThemeColor {
   //const RzThemeColor._();
