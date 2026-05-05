@@ -30,13 +30,26 @@ dependencies:
       ref: main
 ```
 
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+```yaml
+dependencies:
+  rz_theme_set:
+    git:
+      url: https://github.com/rzrasel/flutter-plugins-rz-theme-set-1.git
+      ref: v1.0.0
+```
+
 ---
 
 ## 🧰 Git Commands
 
 ```bash
 git init
-git remote add origin https://github.com/rzrasel/python-react-rz-content-manager-v-1.0.0.git
+git remote add origin https://github.com/rzrasel/flutter-plugins-rz-theme-set-1.git
 git remote -v
 git fetch && git checkout master
 git add .
