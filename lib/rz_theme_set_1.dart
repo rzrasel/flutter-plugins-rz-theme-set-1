@@ -7,4 +7,5 @@ export 'src/theme/size/rz_size.dart';
 // Theme Text
 export 'src/theme/text/rz_text.dart';
 // Theme
+export 'src/theme/rz_app_theme.dart';
 export 'src/rz_theme.dart';
