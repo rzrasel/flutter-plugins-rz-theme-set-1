@@ -4,6 +4,8 @@ export 'src/themes/color/rz_theme_color.dart';
 export 'src/themes/color/rz_color.dart';
 // Themes/Size
 export 'src/themes/size/rz_size.dart';
+// Themes/Font
+export 'src/themes/font/rz_font.dart';
 // Themes/Text
 export 'src/themes/text/rz_text.dart';
 // Themes/Themes
