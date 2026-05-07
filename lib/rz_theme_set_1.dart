@@ -8,6 +8,8 @@ export 'src/themes/size/rz_size.dart';
 export 'src/themes/font/rz_font.dart';
 // Themes/Text
 export 'src/themes/text/rz_text.dart';
+// Themes/Image
+export 'src/themes/image/rz_image.dart';
 // Themes/Themes
 export 'src/themes/themes/rz_app_bar_theme.dart';
 export 'src/themes/themes/rz_bottom_sheet_theme.dart';
@@ -17,6 +19,9 @@ export 'src/themes/themes/rz_elevated_button_theme.dart';
 export 'src/themes/themes/rz_outlined_button_theme.dart';
 export 'src/themes/themes/rz_text_form_field_theme.dart';
 export 'src/themes/themes/rz_text_theme.dart';
+//
+export 'src/themes/device/rz_device_utils.dart';
+export 'src/themes/enum/rz_theme_enum.dart';
 // Themes Root
 export 'src/themes/rz_app_theme.dart';
 // Themes
