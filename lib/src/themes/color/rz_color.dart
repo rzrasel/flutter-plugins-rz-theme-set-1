@@ -10,8 +10,8 @@ class RzColor {
   static const RzColor instance = RzColor._internal();
   //static final theme = RzThemeColor.instance;
   RzThemeColor get theme => RzThemeColor.instance;
-  static const backgroundColor = RzBackgroundColor.instance;
-  static const borderColor = RzBorderColor.instance;
-  static RzTextColor get textColor => RzTextColor.instance;
+  static final backgroundColor = RzBackgroundColor.instance;
+  static final borderColor = RzBorderColor.instance;
+  RzTextColor get textColor => RzTextColor.instance;
   //static RzTextColor get textColor => const RzTextColor._();
 }
