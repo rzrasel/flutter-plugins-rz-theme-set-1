@@ -6,6 +6,8 @@ class RzSize {
   static const RzSize instance = RzSize._internal();
 
   // Padding and margin sizes
+  final double sxsGet = 2.0;
+  static const double sxs = 2.0;
   static const double xs = 4.0;
   final double smGet = 8.0;
   static const double sm = 8.0;
@@ -53,6 +55,7 @@ class RzSize {
 
   // Card sizes
   static const double cardRadiusLg = 16.0;
+  final double cardRadiusMdGet = 12.0;
   static const double cardRadiusMd = 12.0;
   static const double cardRadiusSm = 10.0;
   static const double cardRadiusXs = 6.0;
