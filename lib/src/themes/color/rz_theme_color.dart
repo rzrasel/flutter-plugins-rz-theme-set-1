@@ -4,7 +4,6 @@ import 'package:rz_theme_set_1/src/themes/color/palette/rz_color_palette.dart';
 class RzThemeColor {
   //const RzThemeColor._();
   const RzThemeColor._internal();
-  //
   static const RzThemeColor instance = RzThemeColor._internal();
   Color get primary => RzColorPalette.laserBlue;
   Color get secondary => RzColorPalette.steelRed;
