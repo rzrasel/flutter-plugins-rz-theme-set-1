@@ -1,6 +1,11 @@
 // Themes/Color
 export 'src/themes/color/palette/rz_color_palette.dart';
+
+export 'src/themes/color/rz_background_color.dart';
+export 'src/themes/color/rz_border_color.dart';
+export 'src/themes/color/rz_text_color.dart';
 export 'src/themes/color/rz_theme_color.dart';
+
 export 'src/themes/color/rz_color.dart';
 // Themes/Size
 export 'src/themes/size/rz_size.dart';
