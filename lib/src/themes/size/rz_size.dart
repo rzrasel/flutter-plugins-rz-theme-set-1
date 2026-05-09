@@ -34,7 +34,7 @@ class RzSize {
   // Default spacing between sections
   static const double defaultSpace = 24.0;
   final double defaultSpaceGet = 24.0;
-  double get spaceBetweenItemGet => 16.0;
+  static double get spaceBetweenItemGet => 16.0;
   static const double spaceBetweenItem = 16.0;
   static const double spaceBetweenSection = 32.0;
 
